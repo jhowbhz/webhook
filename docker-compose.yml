@@ -23,7 +23,7 @@ services:
     container_name: webserver
     restart: unless-stopped
     ports:
-      - "9000:80"
+      - "2550:80"
     networks:
       - backend
     volumes:
